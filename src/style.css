@@ -40,6 +40,10 @@ header {
   margin: 0 2.5%;
 }
 
+li > label {
+  text-align: left !important;
+}
+
 input:checked + label {
   text-decoration: line-through;
 }
@@ -75,10 +79,6 @@ li > img {
 
 li > div {
   justify-content: flex-start;
-}
-
-li > label {
-  text-align: left !important;
 }
 
 .header {

@@ -1,7 +1,7 @@
 {
-  "name": "webpack-set",
+  "name": "To-Do-List",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "This is a to do list build on the module of javascript",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreLau11/webpack-set.git"
+    "url": "https://github.com/AndreLau11/To-Do-List"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndreLau11/webpack-set/issues"
+    "url": "https://github.com/AndreLau11/To-Do-List/issues"
   },
-  "homepage": "https://github.com/AndreLau11/webpack-set#readme",
+  "homepage": "https://github.com/AndreLau11/To-Do-List#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
