@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'MyFont';
+  src:
+    url('./my-font.woff2') format('woff2'),
+    url('./my-font.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  padding: 5% 20%;
+  background-image: url(../imagine/rana-arbol-blanca-ataca-dedo.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+  margin: 0 2.5%;
+  background-color: rgba(17, 202, 17, 0.562);
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+label {
+  height: 15px;
+}
+
+header {
+  background-color: rgba(17, 202, 17, 0.808);
+  margin: 0 2.5%;
+}
+
+.list > button {
+  margin: 10px;
+  width: 95%;
+  height: 45px;
+  background-color: rgba(17, 202, 17, 0.808);
+  font-size: 20px;
+}
+
+form > ul > li {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  gap: 20px;
+}
+
+body > div {
+  background-color: rgba(17, 202, 17, 0.123);
+  border: 2px solid rgba(17, 202, 17);
+}
+
+li > input {
+  width: 95%;
+  height: 25px;
+}
+
+li > img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+li > div {
+  justify-content: flex-start;
+}
+
+li > label {
+  text-align: left !important;
+}
+
+.header {
+  margin: 2.5%;
+  display: grid;
+  grid-template-columns: 20fr 1fr;
+}
+
+.header > input {
+  height: 35px;
+}
