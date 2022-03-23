@@ -40,6 +40,10 @@ header {
   margin: 0 2.5%;
 }
 
+input:checked + label {
+  text-decoration: line-through;
+}
+
 .list > button {
   margin: 10px;
   width: 95%;
@@ -48,7 +52,7 @@ header {
   font-size: 20px;
 }
 
-form > ul > li {
+.list > ul > li {
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
   gap: 20px;
@@ -79,10 +83,9 @@ li > label {
 
 .header {
   margin: 2.5%;
-  display: grid;
-  grid-template-columns: 20fr 1fr;
 }
 
 .header > input {
   height: 35px;
+  width: 100%;
 }

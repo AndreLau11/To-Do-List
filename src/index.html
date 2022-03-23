@@ -9,20 +9,19 @@
     <div>
         <header>
             <h1>Today's Tasks</h1>
-            <hr>
         </header>
-        <form class = "header">
-            <input name="new-task" type="text" id="new-task" placeholder="Add to your To Do List">
-            <button type="submit">Enter<img src="../imagine/enter.png" alt=""></button>
-        </form>
         <hr>
-        <form class="list">
+        <div class = "header">
+            <input name="new-task" type="text" id="new-task" placeholder="Add to your To Do List">
+        </div>
+        <hr>
+        <div class="list">
             <ul id="task-list">
+				<!--Dynamic List Content Here-->
             </ul>
             <hr>
             <button type="submit">Clear All Completed</button>
-        </form>
+        </div>
     </div>
-    <script type="module" src="./main.js"></script>
 </body>
 </html>
