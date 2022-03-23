@@ -1,11 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# ![Microverse Logo](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List
+## To Do List
 
 > This is a website that makes your daily tasks easy, since you can list them and mark them as done once you finish them, and later you can remove them so you can create a new one again also you can close the website and open it again, it will just reload the saved information.
 
+## ![Screenshot](./imagine/projectimage.jpg)
 
-![Sceenshot](./imagine/projectimage.jpg)
 ## Built With
 
 - Webpack
@@ -19,10 +19,9 @@
 
 [Live Demo Link](https://andrelau11.github.io/To-Do-List/)
 
-
 ## Authors
 
-👤 **Hectot Andre Lau**
+👤 **Hector Andre Lau**
 
 - GitHub: [@AndreLau11](https://github.com/AndreLau11)
 - Twitter: [@HectorAndreLau](https://twitter.com/HectorAndreLau)
